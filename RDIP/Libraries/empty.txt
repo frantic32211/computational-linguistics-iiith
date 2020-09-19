@@ -1,0 +1,2 @@
+This is an empty file.
+Created this file because this folder was necessary to be there in RDIP and github don't allow to push empty folder. 

@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  min-width: 1024px;
+  height: 100%;
+  background-color: #012943;
+}
+.header {
+  width: 1024px;
+  margin: 0 auto;
+}
+.mainLogo {
+  margin: 0;
+  padding: 0;
+}
+.mainHeading {
+  position: relative;
+}
+.mainHeadingContent {
+  position: absolute;
+  left: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 4px 0 2px 20px;
+  font-weight: bold;
+  width: fit-content;
+}
+.mainHeadingContent:hover {
+  background-color: #085282;
+}
+.breadCrumb {
+  width: 1024px;
+  margin: 0 auto;
+  height: 25px;
+}
+.breadCrumbTab {
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  padding-left: 10px;
+  list-style-type: none;
+}
+.breadCrumbTab li,
+p {
+  color: white;
+  display: inline-block;
+}
+.breadCrumbTab a {
+  color: white;
+  text-decoration: none;
+}
+.heading {
+  width: 1024px;
+  margin: 0 auto;
+  min-height: 600px;
+  height: fit-content;
+  background-color: rgb(227, 242, 252);
+}
+.heading h1 {
+  color: #3d414c;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, Serif;
+  padding: 10px 30px;
+  font-weight: normal;
+  line-height: 60px;
+}
+.secondaryPage {
+  min-height: 600px;
+  height: auto;
+  width: 964px;
+  font-family: Georgia, "Times New Roman", Times, Serif;
+  margin: 0 auto;
+  padding: 0 5px;
+  background-color: #fff;
+}
+.tab li,
+.tabOne {
+  display: flex;
+  flex-direction: column;
+  color: #02568e;
+  font-size: 16px;
+}
+.tab li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  margin: 0px 2px;
+}
+li:hover {
+  background-color: #194e70;
+}
+li:hover a {
+  color: white;
+}
+.experimentText {
+  padding: 20px 15px;
+  font-weight: normal;
+}
+.selectLanguage {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+#selectId {
+  font-size: 17px;
+}
+#selectId option {
+  font-size: 17px;
+}
+.taskOne, .buttonsSelect, .taskTwo, .displaySentence, .result {
+    text-align: center;
+}
+.taskOne p, .taskTwo p{
+    color: blue;
+    padding: 5px;
+}
+b {
+    color: #00008B;
+}
+.buttonsSelectOne, .buttonsSelectTwo {
+    width: 964px;
+    margin: 25px 20px;
+    text-align: center;
+}
+.btnWordEng {
+    font-size: 15px;
+    padding: 1px 6px;
+    margin: 0px 15px;
+}
+.btnWordHin {
+    font-size: 15px;
+    padding: 1px 6px;
+    margin: 0px 15px;
+}
+.btnWords, .resultBtn, .getAnsBtn{
+    font-size: 15px;
+    padding: 1px 6px;
+    margin: 20px 15px 10px;
+}
+.noDisplay {
+    display: none;
+}
+.wrongAns {
+    color: red;
+}
+.correctAns {
+    color: green;
+}
+.wrongAns, .correctAns {
+    padding: 20px 0px;
+    font-size: 30px;
+}
+.correctSentences {
+    color: black;
+    
+}

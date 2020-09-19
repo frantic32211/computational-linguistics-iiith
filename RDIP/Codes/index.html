@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Labs</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="experiment">
+        <div class="header">
+          <div class="mainLogo">
+            <!--  -->
+            <img src="logo.jpg" class="logo" alt="virtual labs IIIT-H logo" />
+          </div>
+          <div class="mainHeading">
+            <!--  -->
+
+            <img src="header-blue.gif" alt="header" class="headerImage" />
+            <a href="#" class="mainHeadingContent"
+              >COMPUTATIONAL LINGUISTICS LAB</a
+            >
+          </div>
+        </div>
+
+        <div class="mainPage">
+          <div class="breadCrumb">
+            <!--  -->
+            <ul class="breadCrumbTab">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <p>></p>
+              <li>
+                <a href="#">Computational Linguistics Lab</a>
+              </li>
+              <p>></p>
+              <li>
+                <a href="#">Forming Sentences - 2</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="heading">
+            <!--  -->
+            <h1>Forming Sentences - 2</h1>
+
+            <div class="secondaryPage">
+              <div class="tab">
+                <!--  -->
+                <ul>
+                  <li>
+                    <img src="introduction.jpg" alt="introduction logo" />
+                    <a href="" class="tabOne">INTRODUCTION</a>
+                  </li>
+                  <li>
+                    <img src="theory.jpg" alt="theory logo" />
+                    <a href="" class="tabOne">THEORY</a>
+                  </li>
+                  <li>
+                    <img src="objective.jpg" alt="objective logo" />
+                    <a href="" class="tabOne">OBJECTIVE</a>
+                  </li>
+                  <li>
+                    <img src="simulation.jpg" alt="simulation logo" />
+                    <a href="" class="tabOne">EXPERIMENT</a>
+                  </li>
+                  <li>
+                    <img src="quizzes.jpg" alt="quizzes logo" />
+                    <a href="" class="tabOne">QUIZZES</a>
+                  </li>
+                  <li>
+                    <img src="procedure.jpg" alt="procedure logo" />
+                    <a href="" class="tabOne">PROCEDURE</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="content">
+                <!--  -->
+                <h2 class="experimentText">Experiment</h2>
+                <div class="selectLanguage">
+                  <select name="" id="selectId">
+                    <option>---Select Language---</option>
+                    <option id="englishId" value="english">English</option>
+                    <option id="hindiId" value="hindi">Hindi</option>
+                  </select>
+                </div>
+                <div class="taskOne noDisplay">
+                  <!--  -->
+                  <p>
+                    <b
+                      >Form a sentence (Declarative or Interrogative or any
+                      other type) from the given words</b
+                    >
+                  </p>
+                  <br />
+                  <p><i>(select the buttons in proper order)</i></p>
+                </div>
+                <div class="buttonsSelectOne">
+                  <!--  -->
+                </div>
+                <div class="buttonsSelectTwo">
+                  <!--  -->
+                </div>
+                <div class="taskTwo noDisplay">
+                  <!--  -->
+                  <p><b>Formed Sentence</b><i>(after selecting words)</i></p>
+                  <h2 class="enteredSentence"></h2>
+                  <button class="btnWords">Re-form the Sentence</button>
+                </div>
+                <div class="result">
+                  <button class="resultBtn noDisplay" onclick="getANS()">
+                    check the correctness of the sentence
+                  </button>
+                  <h2 class="wrongAns noDisplay">Wrong Answer!!!</h2>
+                  <h2 class="correctAns noDisplay">Correct Answer!!!</h2>
+                  <button class="getAnsBtn noDisplay">
+                    Get the correct Sentence
+                  </button>
+                  <br />
+                  <p class="correctSentences noDisplay"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
